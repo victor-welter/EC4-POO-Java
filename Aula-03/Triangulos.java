@@ -39,9 +39,7 @@ public class Triangulos {
         } finally {
             scanner.close();
         }
-
     }
-
 }
 
 class TiposTriangulos {
