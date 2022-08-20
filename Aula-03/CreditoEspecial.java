@@ -7,7 +7,6 @@ acordo com o SALDO MÉDIO do trimestre. Faça um algoritmo que:
 * 1001 à 1500 = 25% sobre o valor do saldo médio
 * Acima de 1501 = 50% sobre o valor do saldo médio
 
-
 1) leia o saldo para cada mês de apuração (três meses)
 2) calcule o SALDO MÉDIO do cliente
 3) calcule o VALOR DO CRÉDITO de acordo com a tabela abaixo
@@ -66,6 +65,5 @@ class CalculaCredito {
         if ((saldoMedio >= 0) && (saldoMedio <= 500)) {
             System.out.println("Nenhum crédito");
         }
-
     }
 }
